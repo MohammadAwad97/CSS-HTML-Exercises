@@ -1,0 +1,39 @@
+body{
+    width: 1000px;
+    height: 1000px;
+    scroll-behavior: smooth;
+
+}
+
+h2{
+    color: rgba(132, 61, 61, 0.774);
+    background-color: rgb(206, 206, 190);
+
+}
+
+img{
+    width: 300px;
+    height: 280px;
+    position: relative;
+    bottom: 49px;
+    z-index: 999;
+    float: right;
+    
+}
+
+#Green {
+    color:rgb(0, 255, 0)
+}
+
+#Number{
+    text-decoration: underline;
+    color:brown
+}
+
+#submit{
+    border-radius: 45;
+}
+
+#gray{
+    background-color: gray;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Dentist.Css" />
+  </head>
+  <body>
+    <h1>Dentist Appointment Reservation Form</h1>
+    <form>
+      <h3>*Mandatory Fields</h3>
+      <br />
+
+      <label for="Fname" id="right">Full Name:*</label><br />
+      <input
+        type="text"
+        id="Fname"
+        name="Fname"
+        value="FirstName &nbsp LastName"
+      /><br />
+      <label id="right">Email Address:*</label><br />
+      <input
+        type="text"
+        id="Email"
+        name="Email"
+        value="m97.awad@gmail.com"
+      /><br />
+      <label>Select the needed service:*</label><br />
+
+      <select id="Services" name="Services">
+        <option value="1">Whitening</option>
+        <option value="2">Caries treatment</option></select
+      ><br />
+
+      <!--Appointment Date-->
+      <label id="right">Appointment Date*:</label><br />
+      <input type="date" id="appt" /><br />
+
+      <!--Appointment Time*-->
+
+      <label id="right">Appointment Time*:</label><br />
+      <input type="time" id="appt" name="time" /><br />
+
+      <!--Radio-->
+      <label>Doctor's preferred gender </label><br />
+      <input type="radio" id="Male" /><label>Male </label>
+      <input type="radio" id="Female" /> <label>Female </label><br />
+
+      <!--special Note-->
+      <label id="Special">Special Note*: </label><br />
+      <textarea rows="9" cols="30">Enter text here</textarea><br />
+      <!--Terms-->
+      <label>Terms and conditions</label><br />
+      <input type="radio" /><label>I agree</label> <input type="radio" /><label
+        >I disagree</label
+      ><br />
+      <input type="submit" value="complete reservation " />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+.grad1{
+    background-image:linear-gradient(to bottom , rgb(200, 44, 179) 50%,black 50%);
+    width: 400px;
+    height: 400px;
+    background-size: 100px 100px;
+}

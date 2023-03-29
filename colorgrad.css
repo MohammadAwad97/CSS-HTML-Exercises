@@ -1,0 +1,7 @@
+div{
+    background-image: repeating-linear-gradient(135deg ,white, #639cc0 , #155177 ,white, #639cc0 ,#155177 ,white,  #639cc0, #155177 ,white, #639cc0 , #155177 );
+    width: 600px;
+    height: 600px;
+    background-size: 100px 100px;
+
+}

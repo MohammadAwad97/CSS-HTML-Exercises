@@ -1,0 +1,38 @@
+h1,
+h3,
+label {
+  color: rgb(51, 51, 204);
+}
+
+form {
+  position: relative;
+  left: 350px;
+  text-align: justify;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 20px;
+}
+
+textarea {
+  position: relative;
+  right: 20px;
+}
+
+select,
+#appt {
+  position: relative;
+  left: 30px;
+}
+
+#Special {
+  position: relative;
+  left: 60px;
+}
+
+#right {
+  position: relative;
+  left: 30px;
+}
